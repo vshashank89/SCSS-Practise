@@ -1,0 +1,117 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M307.2 691.2l204.8 128 204.8-128v-435.2h-409.6v435.2zM230.4 512c0-56.576-45.875-102.4-102.4-102.4s-102.4 45.824-102.4 102.4c0 56.576 45.875 102.4 102.4 102.4s102.4-45.824 102.4-102.4zM896 409.6c-56.525 0-102.4 45.824-102.4 102.4s45.875 102.4 102.4 102.4 102.4-45.824 102.4-102.4c0-56.576-45.875-102.4-102.4-102.4zM229.632 317.389c64.256-92.928 169.83-148.429 282.368-148.429 110.49 0 214.938 54.067 279.347 144.538 22.989 32.205 67.738 39.731 99.942 16.845 32.256-22.938 39.782-67.738 16.845-99.994-91.238-128.205-239.36-204.749-396.134-204.749-159.59 0-309.248 78.592-400.23 210.278-22.477 32.563-14.336 77.21 18.176 99.738 32.614 22.426 77.21 14.285 99.686-18.227zM791.347 710.502c-64.41 90.522-168.858 144.538-279.347 144.538-112.538 0-218.112-55.501-282.368-148.429-22.477-32.563-67.123-40.653-99.686-18.227-32.563 22.528-40.704 67.174-18.176 99.738 90.982 131.686 240.64 210.278 400.23 210.278 156.774 0 304.896-76.544 396.134-204.749 22.938-32.256 15.411-77.005-16.845-99.994-32.205-22.886-76.954-15.36-99.942 16.845z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "sports-club"
+        ],
+        "grid": 20
+      },
+      "attrs": [],
+      "properties": {
+        "id": 280,
+        "order": 16,
+        "prevSize": 20,
+        "name": "sports-club"
+      },
+      "setIdx": 1,
+      "setId": 2,
+      "iconIdx": 279
+    },
+    {
+      "icon": {
+        "paths": [
+          "M576 248.372v-248.372l384 384-384 384v-253.824c-446.75-10.482-427.588 303.792-313.86 509.824-280.712-303.414-221.1-789.57 313.86-775.628z"
+        ],
+        "tags": [
+          "redo",
+          "right",
+          "arrow-right"
+        ],
+        "defaultCode": 59752,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "redo2, right",
+        "name": "redo2",
+        "order": 18,
+        "id": 105,
+        "prevSize": 32
+      },
+      "setIdx": 2,
+      "setId": 1,
+      "iconIdx": 104
+    },
+    {
+      "icon": {
+        "paths": [
+          "M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
+        ],
+        "tags": [
+          "menu",
+          "list",
+          "options",
+          "lines",
+          "hamburger"
+        ],
+        "defaultCode": 59837,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "menu, list3",
+        "name": "menu",
+        "order": 17,
+        "id": 190,
+        "prevSize": 32
+      },
+      "setIdx": 2,
+      "setId": 1,
+      "iconIdx": 189
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": false,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

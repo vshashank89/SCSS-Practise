@@ -1,0 +1,109 @@
+.header {
+    background-color: black;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    & > * {
+        margin-top: 1rem;
+    }
+
+
+    &__name {
+        text-transform: uppercase;
+        font-size: 2.3rem;
+        font-weight: 700;
+        color: rgb(190, 187, 187);
+        margin-left: 3rem;
+        //margin-top: -.2rem;
+
+        @media only screen and (max-width :40.6em ) {
+            margin-left: 1rem;
+            margin-top: .5rem;
+        }
+        
+    }
+
+    &__form {
+        flex: 0 0 33%;// flex-grow flex-shrink flex-basis
+        display: flex;
+        align-items: center;
+        justify-content: center;
+               
+    }
+
+    &__input {
+        width: 82.5%;
+        height: 2.5rem;
+        border: none;
+        
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__button {
+        background-color: rgb(255, 0, 0);
+        border: none;
+        cursor: pointer;
+        height: 3rem;
+        width: 2.5rem;
+        
+    }
+
+    &__icon {
+        height: 2rem;
+        width: 2rem;
+        fill: $color-grey-light-1;
+    }
+
+    &__elements {
+        color: rgba($color-grey-light-1,.9);
+        font-size: 1.8rem;
+        font-weight: 400;
+        align-self: flex-start;
+        
+
+        span:not(:last-child) {
+            padding: 0 1rem 0 2rem;
+            border-right: 1px rgba($color-grey-light-1,.7) solid;
+        }
+        span {
+            display: inline-block;
+            box-sizing: content-box;
+            &:last-child {
+                margin-right: 2rem;
+                padding-left: 2rem;
+
+                @media only screen and (max-width :50em ) {
+                    margin-right: 1rem;
+                }
+            }
+        }
+
+    }
+
+    &__login {
+        color: rgb(255, 255, 255);
+        flex: 0 0 100%;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1.5rem;
+        font-weight: 400;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    &__newacc {
+        color: rgba(#fff , .5);
+    }
+
+    &__register {
+        background-color: rgb(14, 126, 14);
+        padding: .5rem 1rem;
+        margin: 0 .3rem .5rem 1rem;
+    }
+}
